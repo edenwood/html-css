@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Menu - Responsive</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+        body {
+            background-color: hsl(208, 100%, 97%);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+    background-color: black;
+    padding: 20px;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Add space between logo and nav */
+}
+
+        h1.logo {
+            font-family: 'Courgette', Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 2.5em;
+            color: white;
+            letter-spacing: 2px;
+            margin: 0;
+            padding: 10px;
+        }
+
+        nav>ul {
+            display: inline-block;
+            vertical-align: top;
+            list-style-type: none;
+            margin: 0 20px;
+            padding:0;
+            overflow: hidden;
+        }
+
+        nav>ul>li {
+            float: left;
+        }
+
+        li>a {
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            color: white;
+            text-decoration: none;
+        }
+
+        li>a:hover {
+            background-color: #333;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">Simple Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

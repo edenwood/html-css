@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Project Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border: 1px solid #ccc;
+        }
+        th {
+            background-color: #4CAF50; /* Green for the header */
+            color: white;
+        }
+        .beginner {
+            background-color: green; /* Beginner */
+            color: white;
+        }
+        .intermediate {
+            background-color: yellowgreen; /* Intermediate */
+            color: black;
+        }
+        .advanced {
+            background-color: lightblue; /* Advanced */
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Menu Project Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Menu Type</th>
+                <th>Description</th>
+                <th>Learning Objectives</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="beginner">
+                <td>1. Simple Horizontal Menu</td>
+                <td>A basic menu that presents links horizontally.</td>
+                <td>List structure (<code>&lt;ul&gt;</code> and <code>&lt;li&gt;</code>) and basic styling.</td>
+            </tr>
+            <tr class="beginner">
+                <td>2. Simple Vertical Menu</td>
+                <td>A menu that presents links vertically, ideal for sidebars.</td>
+                <td>Layout control with flexbox or grid.</td>
+            </tr>
+            <tr class="intermediate">
+                <td>3. Responsive Hamburger Menu</td>
+                <td>A menu that transforms into a hamburger icon on smaller screens.</td>
+                <td>Use of media queries and display manipulation.</td>
+            </tr>
+            <tr class="intermediate">
+                <td>4. Dropdown Menu</td>
+                <td>A menu that displays sub-items on hover.</td>
+                <td>CSS for hover states and element positioning.</td>
+            </tr>
+            <tr class="intermediate">
+                <td>5. Sticky Menu</td>
+                <td>A menu that remains fixed at the top of the page while scrolling.</td>
+                <td><code>position</code> properties and scroll behavior.</td>
+            </tr>
+            <tr class="advanced">
+                <td>6. Menu with Icons</td>
+                <td>A menu that includes icons alongside link texts.</td>
+                <td>Use of icon fonts (like Font Awesome) and styling.</td>
+            </tr>
+            <tr class="advanced">
+                <td>7. Mega Menu</td>
+                <td>An expansive menu that presents multiple options and categories in a broader interface.</td>
+                <td>Grid structures for more complex layouts.</td>
+            </tr>
+            <tr class="advanced">
+                <td>8. Menu with Transitions and Animations</td>
+                <td>A menu that utilizes smooth animations when opening, closing, or hovering.</td>
+                <td>CSS transition properties.</td>
+            </tr>
+            <tr class="advanced">
+                <td>9. Step Navigation Menu</td>
+                <td>A menu that guides the user through steps, ideal for forms or processes.</td>
+                <td>State management and step layout.</td>
+            </tr>
+            <tr class="advanced">
+                <td>10. Tabbed Menu</td>
+                <td>A menu that presents different sections as tabs, allowing users to switch between them.</td>
+                <td>Layout structure and content visibility manipulation.</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
