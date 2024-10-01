@@ -26,8 +26,12 @@
             text-decoration: none;
         }
 
+        .menu-btn{
+            display: none;
+        }
+
         nav>ul {
-            display: inline-block;
+            display: flex;
             vertical-align: top;
             list-style-type: none;
             margin: 0 20px;
