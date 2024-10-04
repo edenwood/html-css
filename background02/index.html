@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakckground Position</title>
+    <style>
+        body{
+            height: 98vh;
+            padding: 0;
+            margin: 0;
+        }
+        div{
+            background-image: url('img01.jpg');
+            background-repeat: no-repeat;
+            border: 2px solid black;
+            width: 700px;
+            height: 150px;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        div#left-top{
+            background-position: left top;
+        }
+
+        div#right-top{
+            background-position: right top;
+        }
+
+        div#center-center{
+            background-position: center center;
+        }
+
+        div#right-bottom{
+            background-position: right bottom;
+        }
+    </style>
+</head>
+<body>
+    <div class="sq1" id="left-top"></div>
+    <div class="sq2" id="right-top"></div>
+    <div class="sq3" id="center-center"></div>
+    <div class="sq4" id="right-bottom"></div>
+</body>
+</html>
