@@ -6,18 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vertical alignment</title>
     <style>
-        #container{
+        #container {
             position: relative;
             height: 500px;
             padding: 10px;
             background-color: purple;
         }
 
-        #content {
+        #content-00 {
+            position: absolute;
+            height: 450px;
+            width: 750px;
+            background-color: rgb(25, 125, 31);
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #content-01 {
+            position: absolute;
+            height: 400px;
+            width: 600px;
+            background-color: rgb(215, 66, 2);
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #content-02 {
             position: absolute;
             height: 200px;
             width: 400px;
             background-color: yellowgreen;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #content-03 {
+            position: absolute;
+            height: 100px;
+            width: 200px;
+            background-color: red;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #content-04 {
+            position: absolute;
+            height: 50px;
+            width: 100px;
+            background-color: rgb(0, 26, 255);
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #content-05 {
+            position: absolute;
+            height: 40px;
+            width: 40px;
+            background-color: black;
+            border-radius: 50%;
             left: 50%;
             top: 50%;
             transform: translate(-50%,-50%);
@@ -27,7 +78,22 @@
 
 <body>
     <section id="container">
-        <article id="content">
+        <article id="content-00">
+        </article>
+
+        <article id="content-01">
+        </article>
+
+        <article id="content-02">
+        </article>
+
+        <article id="content-03">
+        </article>
+
+        <article id="content-04">
+        </article>
+
+        <article id="content-05">
         </article>
     </section>
 </body>
